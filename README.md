@@ -1,1 +1,1 @@
- Portfolio website created using GatsbyJS, Netlify and the default Gatsby Starter. 
+ Portfolio website created using GatsbyJS, hosted on Netlify. 
