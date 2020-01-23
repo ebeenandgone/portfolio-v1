@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    margin: 0;
+    /* margin: 0; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: #272425;
@@ -28,23 +28,90 @@ h3 {
     margin-block-start: 0rem;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 4rem;
-    margin: 2rem 10rem;
+.pro-pic {
+    max-width: 300px;
+    margin-bottom: 1.45rem;
 }
 
-/* .left-side {
-    border: 2px purple solid;
-} */
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    h1 {
+        justify-self: center;
+    }
+
+    h3 {
+        margin-block-start: 1rem;
+        justify-self: center;
+    }
+
+    .left-side {
+        display: grid;
+        justify-content: center;
+    }
+
+    .right-side a {
+        margin: 2rem 0rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 1040px) {
+    .right-side a {
+        margin: 2.5rem 0rem;
+        font-size: 2.5rem;
+    }
+
+    .left-side {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1040px) and (max-width: 1440px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 4rem;
+        margin: 2rem 10rem;
+    }
+
+    .left-side {
+        display: grid;
+        justify-content: center;
+    }
+
+    .right-side a {
+        margin: 2.5rem 0rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 3000px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 4rem;
+        margin: 2rem 10rem;
+    }
+}
+
+
+.left-side {
+    display: grid;
+    justify-content: center;
+}
 
 .right-side {
     font-family: inherit;
     font-size: 2rem;
     display: grid;
 }
-
 
 .right-side a {
     text-decoration: none;
@@ -53,8 +120,8 @@ h3 {
     justify-self: center;
     border-radius: 10px;
     padding: 0.1rem 4rem 0rem 4rem;
-    margin: 2.5rem 0rem;
-    font-size: 2.5rem;
+    /* margin: 2.5rem 0rem;
+    font-size: 2.5rem; */
 }
 
 .footer {

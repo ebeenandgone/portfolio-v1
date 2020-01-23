@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div class="container">
 
       <div class="item left-side">
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div class="pro-pic">
           <Image />
         </div>
         <div>
