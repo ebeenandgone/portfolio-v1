@@ -4,7 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `portfolio-v2`,
-    siteUrl: `https://www.yourdomain.tld`
+    description: `Hi, my name is Elliot. I'm a Web Developer with a strong passion for cybersecurity.`,
+    author: `@ekeen`,
+    siteUrl: `https://www.ekeen.info`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
@@ -15,7 +17,7 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
-      "path": "./src/images/"
+      "path": "src/images/"
     },
     __key: "images"
   }]
