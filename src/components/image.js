@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { StaticImage } from 'gatsby-plugin-image';
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -18,15 +19,25 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "elliot-circle.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(
+            width: 300 
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+          )
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  // // Check if `data.fileName.childImageSharp` is not undefined
+  // const image = data.fileName && data.fileName.childImageSharp
+  //   ? getImage(data.fileName.childImageSharp.gatsbyImageData)
+  //   : null;
+
+  // // Conditionally render the GatsbyImage component
+  // return image ? <GatsbyImage image={image} alt="A man smiling at the camera." /> : <p>Image not found</p>;
+
+  return <StaticImage src="../images/elliot-circle.png" alt="A description" />;
 }
 
 export default Image

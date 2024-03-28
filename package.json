@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "gatsby-starter-default",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
@@ -41,5 +42,32 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+=======
+  "name": "portfolio-v2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "portfolio-v2",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "npm": "^10.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+>>>>>>> main
   }
 }
