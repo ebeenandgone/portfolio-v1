@@ -1,5 +1,5 @@
 <h1 align="center">
-  Portfolio website created using [GatsbyJS](https://www.gatsbyjs.com), hosted on [Netlify](https://app.netlify.com/). 
+  Portfolio website created using <link url="https://www.gatsbyjs.com">GatsbyJS</link>, hosted on <link url="https://app.netlify.com">Netlify</link>. 
 </h1>
 
 # Elliot Keen's Portfolio Website 🌐
