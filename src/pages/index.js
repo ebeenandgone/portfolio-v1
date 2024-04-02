@@ -24,7 +24,7 @@ const IndexPage = () => {
             </div>
             <div>
               <h1 style={{ color: `#e9c453` }}>Hi, my name is Elliot.</h1>
-              <h3>I'm a Web Developer with a strong passion for cybersecurity.</h3>
+              <h3>I'm a Security Engineer .</h3>
             </div>
           </div>
 
