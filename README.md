@@ -1,39 +1,32 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Portfolio website created using [GatsbyJS](https://www.gatsbyjs.com), hosted on [Netlify](https://app.netlify.com/). 
 </h1>
 
-## 🚀 Quick start
+# Elliot Keen's Portfolio Website 🌐
 
-1.  **Create a Gatsby site.**
+Welcome to the GitHub repository of my personal portfolio website! This site provides links to showcases my professional journey, projects, and skills in the realm of cybersecurity and software engineering.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## About The Project 📖
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+My portfolio is a digital reflection of my professional experiences and accomplishments. It serves as a dynamic resume and a platform to connect with both potential employers and fellow tech enthusiasts. 
 
-2.  **Start developing.**
+### Built With 🛠️
 
-    Navigate into your new site’s directory and start it up.
+This website was brought to life using a mix of modern technologies and best practices in web development. Here’s a quick overview:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- **Frontend:** React.js for a dynamic and responsive user interface.
+- **Styling:** Custom CSS for efficient, mobile-first design.
+- **Backend:** Node.js with Express for a lightweight, scalable server setup.
+- **Deployment:** Deployed on Netlify for global access with continuous deployment from this GitHub repository.
 
-3.  **Open the code and start customizing!**
+### Features ✨
 
-    Your site is now running at http://localhost:8000!
+- **Interactive UI:** Engaging user interface with smooth transitions.
+- **Responsive Design:** Looks great on both desktop and mobile devices.
+- **Portfolio Showcase:** Detailed project pages with insights into my contributions and project outcomes.
+- **Contact Form:** Integrated contact form for easy communication.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
+**Learn more about GatsbyJS**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
@@ -41,9 +34,3 @@
     - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
