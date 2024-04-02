@@ -18,6 +18,7 @@ This website was brought to life using a mix of modern technologies and best pra
 - **Styling:** Custom CSS for efficient, mobile-first design.
 - **Backend:** Node.js with Express for a lightweight, scalable server setup.
 - **Deployment:** Deployed on Netlify for global access with continuous deployment from this GitHub repository.
+- **Modern Stack** [Jamstack](https://jamstack.org) is a modern architectural approach to web development.
 
 ### Features ✨
 
